@@ -33,3 +33,41 @@ h1 {
   padding: 5px;
   box-sizing: border-box;
 }
+
+#m1 {
+  border: solid 3px black;
+}
+
+[id="m2"] {
+  color:blue
+}
+
+article div::before {
+  content: "[영화소개] ";
+  font-weight: 900;
+  color: darkgreen;
+}
+
+div::after {
+  content: " [더보기]";
+  font-style: italic;
+}
+
+a{
+  text-Decoration: none;
+  color : darkred
+}
+
+a:visited{
+  color:orange
+}
+
+a:hover{
+  background-color : blue;
+  color: white;
+}
+
+a:active {
+  background-color : red;
+  color: white;
+}
