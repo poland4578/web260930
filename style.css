@@ -1,34 +1,35 @@
 * {
-  /*font-size: 10px;*/
-  
+  /* font-size: 10px; */
 }
 
-body{
+body {
   font-size: 14px;
 }
 
 header, main, footer {
-  margin : 20px;
+  margin: 20px;
   padding: 10px;
   border: solid 5px #cccccc;
 }
 
 h1 {
-  /*font-size: 5em;*/
+  /* font-size: 5em; */
   color: green;
   background-color: lightpink;
   border: solid 2px red;
   text-align: center;
-  /*width: 90vw;*/
+  /* width: 90vw; */
   padding: 20px;
   margin: 40px;
 }
 
 .contact {
-  display: inline-blcok;
+  display: inline-block;
+  vertical-align: top;
   width: 28%;
   height: 100%;
   border: solid 1px black;
-  magine: 10px;
+  margin: 10px;
   padding: 5px;
+  box-sizing: border-box;
 }
